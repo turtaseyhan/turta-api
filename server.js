@@ -20,6 +20,6 @@ app.get("/", async (req, res) => {
   });
 });
 
-app.listen(8080, () => {
+app.listen(8080 || process.env.PORT, () => {
   console.log("Server started on port 3000");
 });
