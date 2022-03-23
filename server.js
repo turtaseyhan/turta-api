@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
-const config = require("../turt-djs-13/req/configDiscord.json");
+const config = require("./config.json");
 const mongoose = require("mongoose");
-const mongo = require('../turt-djs-13/mongodb/mongo.js');
+const mongo = require('./mongodb/mongo.js');
 const ejs = require("ejs");
-const state_schema = require("../turt-djs-13/mongodb/schemas/state_schema.js");
+const state_schema = require("./mongodb/schemas/state_schema.js");
 
 app.set("view engine", "ejs");
 
