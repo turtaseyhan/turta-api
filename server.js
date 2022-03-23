@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const config = require("./config.json");
 const mongoose = require("mongoose");
 const mongo = require('./mongodb/mongo.js');
 const ejs = require("ejs");
