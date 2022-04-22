@@ -1,4 +1,4 @@
-Arthur, Abisi Shawn ve Alex para kazanabilmek için kaçak sigara işine girer. Shawn sigara satarken olan bir sürtüşme sonucu maskeli bir kişi tarafından vurulur. Bunu gören Arthur abisinin yanına koşar. Abisini kanlar içinde kucağına alır. Abisinin son sözü "Saatin kovanı Compton'da" olur. Bundan etkilenen Arthur, abisini vuran kişiyi bulmak için mahalledeki herkese onun kim olduğunu sorar. Alex'e sorduğunda; Alex, ona yardım edebileceğini söyler. Alex, Arthur'a her türlü desteği sağlar. Bu sayede Arthur'un güveni gelir, Alex'e güvenir ve abisinin hakkı olan paketleri verir. Alex sigaraları annesine yakalattıktan sonra annesi evden atınca Arthur ile kalmaya başlar.const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const {
     BrowserWindow,
