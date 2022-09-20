@@ -12,6 +12,7 @@ const state_schema = new mongoose.Schema({
     discordjs_version: reqString,
     nodejs: reqString,
     mongodb: reqString,
+    accessHardwareID: String,
     cpuArch: String,
     cpu: String,
     os: String,
